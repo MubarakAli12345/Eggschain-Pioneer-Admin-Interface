@@ -1,0 +1,50 @@
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .total_member_icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .total_user_icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .total_clinic_icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .scrollerme {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .total_members {
+    font-size: 1.8rem !important;
+    position: relative !important;
+    left: 18px !important;
+    top: 13px !important;
+  }
+  .total_users {
+    font-size: 1.8rem !important;
+  }
+  .total_clinics {
+    font-size: 1.8rem !important;
+  }
+  .total_user_icon {
+    position: relative;
+    top: 13px;
+  }
+  .total_clinic_icons {
+    position: relative;
+    top: 11px;
+    right: 9px;
+  }
+}
+.chart_container {
+  margin-left: -15px;
+}

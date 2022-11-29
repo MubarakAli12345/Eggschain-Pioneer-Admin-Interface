@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "eggschain-pioneer-phase-ii"
+  },
+  "targets": {
+    "eggschain-pioneer-phase-ii": {
+      "hosting": {
+        "pioneerAdmin": [
+          "eggschain-pioneer-admin"
+        ]
+      }
+    }
+  }
+}
